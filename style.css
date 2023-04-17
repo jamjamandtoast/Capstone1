@@ -1,0 +1,14 @@
+body {
+    background-color:#FAFFC7
+}
+.jams-logo{
+    margin-top: 20%;
+}
+.title{
+    font-family: "Inconsolata", monospace;
+    margin-top: 50%;
+}
+.sub-title{
+    font-family:"Inconsolata", monospace;
+    font-size: 20px;
+}
