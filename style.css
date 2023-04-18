@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color:#FAFFC7
 }
@@ -46,11 +50,12 @@ body {
     text-align: center;
     font-family: "Iconsolata",monospace;
     margin-top: 10%;
+    padding-bottom: 30%;
 }
 .footer h1{
     margin-top: 10%;
 
 }
 .fa-github{
-    
+
 }
