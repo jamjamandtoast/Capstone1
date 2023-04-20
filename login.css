@@ -1,0 +1,40 @@
+body{
+    background-color:#FFB3E2;
+}
+.login{
+    font-family: "Bogart";
+    font-weight: bold;
+    color:#ffffff;
+    font-size: 100px;
+    margin-top: 10%;
+    padding-left: 20%;
+}
+.container-fluid input[type="text"], .button
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: none;
+    border-radius: 40px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    padding: 32px 16px;
+    width: 100%;
+    margin-top: 15%;
+    
+
+  }
+  input::placeholder {
+    font-family: "Bogart";
+    font-weight: bold;
+    font-size:38px;
+    color: #FF66C4;
+    opacity: 0.9
+    ;
+}
+#toast-animation-cell{
+    text-align:center;
+    
+    
+}
+  
