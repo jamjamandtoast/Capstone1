@@ -2,14 +2,9 @@ body{
 font-family: monospace;
 font-weight: bold;
  background-color: #fdf3dd;
-
-}
-
-h1{
-
 }
 .card{
-    padding: 1.5em .5em .5em;
+    padding: 2.5em 1em 1em;
     border-radius: 2em;
     text-align: center;
    border: none;
@@ -52,7 +47,7 @@ h1{
   .card-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 23px;
+    margin-bottom: 30px;
     
   }
   

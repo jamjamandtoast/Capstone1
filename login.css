@@ -6,13 +6,14 @@ body{
     font-size: 40px;
     font-weight: bold;
     margin-top: 10%;
+    
   }
 .login-card {
     background-color: #ffdde5;
     border: none;
     border-radius: 10%;
-    margin-top: 10%;
-    height: 400px;
+    margin-top: 20%;
+    height: 500px;
     width: 80%;
   }
   .login-card .form-group {
@@ -27,10 +28,16 @@ body{
     
 }
 .jam-png{
-    margin-top: 50;
+    margin-top: 70%;
 }
 button{
     margin-left: 40%;
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: larger;
+}
+label{
+    font-family: monospace;
+    font-weight: bold;
+    font-size:x-large;
+    color:#AE0F17;
 }
