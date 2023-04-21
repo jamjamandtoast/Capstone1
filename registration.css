@@ -1,0 +1,26 @@
+body{
+    font-family: monospace;
+    font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.form-container {
+  background-color: #F1EBE5;
+  padding: 20px;
+  border-radius: 20px;
+  width: 60%;
+  margin-top: 3%;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+
+.hi-img{
+    width: 60%;
+   
+}

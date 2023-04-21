@@ -10,18 +10,18 @@
 </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Jams & Toast</a>
+      <div class="container-fluid" style="font-weight: bold;font-family: monospace;">
+        <a class="navbar-brand" href="index.html">Jams & Toast</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="product.html">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About Us</a>
@@ -35,9 +35,9 @@
               </a>
               <ul class="dropdown-menu">
                   
-                <li><a class="dropdown-item" href="#logim">Login</a></li>
-                <li><a class="dropdown-item" href="#"> Cart</a></li>
-                <li><a class="dropdown-item" href="#">New Here?</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li><a class="dropdown-item" href="checkout.html"> Cart</a></li>
+                <li><a class="dropdown-item" href="registration.html">New Here?</a></li>
               </ul>
             </li>
           </ul>
@@ -45,64 +45,63 @@
       </div>
     </nav>
     <div class="card-container">
-      <div class="row-md-4"><h1 class="products">Products</h1>
+      <div class="header">
+        <h1 class="products">Products</h1>
       </div>
-        <div class="card-row">
-          <div class="card" style="width: 18rem; background-color: #CAAACD;" >
-            <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
-            <img src="images jt/Blackberry-Jam.jpeg" class="card-img-top" alt="blackjam">
-            <div class="card-body">
-              <h5 class="card-title">Blackberry Jam</h5>
-              <p class="card-text">5$</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem; background-color: #CB962E;">
-            <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
-            <img src="images jt/peach-jam.webp" class="card-img-top" alt="peachjam">
-            <div class="card-body">
-              <h5 class="card-title">Peach Jam</h5>
-              <p class="card-text">10$</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem; background-color: #EF601E;">
-            <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
-            <img src="images jt/straw-jam.jpeg" class="card-img-top" alt="strawberryjam">
-            <div class="card-body">
-              <h5 class="card-title">Strawberry Jam</h5>
-              <p class="card-text">8$</p>
-            </div>
+      <div class="card-row">
+        <div class="card" style="background-color: #CAAACD;">
+          <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
+          <img src="images jt/Blackberry-Jam.jpeg" class="card-img-top" alt="blackjam">
+          <div class="card-body">
+            <h5 class="card-title">Blackberry Jam</h5>
+            <p class="card-text">5$</p>
           </div>
         </div>
-        <div class="card-row">
-          <div class="card" style="width: 18rem; background-color: #EF601E;">
-            <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
-            <img src="images jt/sourdough-toast.jpeg" class="card-img-top" alt="sourtoast">
-            <div class="card-body">
-              <h5 class="card-title">Sourdough Toast</h5>
-              <p class="card-text">9$</p>
-            </div>
+        <div class="card" style="background-color: #CB962E;">
+          <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
+          <img src="images jt/peach-jam" class="card-img-top" alt="peachjam">
+          <div class="card-body">
+            <h5 class="card-title">Peach Jam</h5>
+            <p class="card-text">10$</p>
           </div>
-          <div class="card" style="width: 18rem; background-color: #D6e8f7;">
-            <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
-            <img src="images jt/baguette-toast.jpeg" class="card-img-top" alt="bagutoast">
-            <div class="card-body">
-              <h5 class="card-title">Baguette Toast</h5>
-              <p class="card-text">7$</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem; background-color: #f1dfb6;">
-            <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
-            <img src="images jt/rye-toast.jpeg" class="card-img-top" alt="ryetoast">
-            <div class="card-body">
-              <h5 class="card-title">Rye Toast</h5>
-              <p class="card-text">4$</p>
-            </div>
+        </div>
+        <div class="card" style="background-color: #EF601E;">
+          <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
+          <img src="images jt/straw-jam.jpeg" class="card-img-top" alt="strawberryjam">
+          <div class="card-body">
+            <h5 class="card-title">Strawberry Jam</h5>
+            <p class="card-text">8$</p>
           </div>
         </div>
       </div>
-      
+      <div class="card-row">
+        <div class="card" style="background-color: #EF601E;">
+          <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
+          <img src="images jt/sourdough-toast.jpeg" class="card-img-top" alt="sourtoast">
+          <div class="card-body">
+            <h5 class="card-title">Sourdough Toast</h5>
+            <p class="card-text">9$</p>
+          </div>
+        </div>
+        <div class="card" style="background-color: #D6e8f7;">
+          <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
+          <img src="images jt/baguette-toast.jpeg" class="card-img-top" alt="bagutoast">
+          <div class="card-body">
+            <h5 class="card-title">Baguette Toast</h5>
+            <p class="card-text">7$</p>
+          </div>
+        </div>
+        <div class="card" style="background-color: #f1dfb6;">
+          <h2 class="bi bi-bag-plus-fill" id="heart"></h2>
+          <img src="images jt/rye-toast.jpeg" class="card-img-top" alt="ryetoast">
+          <div class="card-body">
+            <h5 class="card-title">Rye Toast</h5>
+            <p class="card-text">4$</p>
+          </div>
+        </div>
+      </div>
+    </div>
     
-  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
